@@ -1,17 +1,17 @@
 # US-Visa-Approval-Prediction
 
-#### About
+### About
 The Immigration and Nationality Act (INA) of the US permits foreign workers to come to the United States to work on either a temporary or permanent basis. 
 The act also protects US workers against adverse impacts on the workplace and maintains requirements when they hire foreign workers to fill workforce shortages. The immigration programs are administered by the Office of Foreign Labor Certification (OFLC).
 
-#### Problem statement.
+### Problem statement.
 * OFLC gives job certification applications for employers seeking to bring foreign workers into the United States and grants certifications. 
 * last year, the number of employees was huge, so OFLC needs Machine learning models to shortlist visa applicants based on their previous data.
 
-#### Dataset is taken from Kaggle and stored in GitHub as well as inside the notebook directory 
+### Dataset is taken from Kaggle and stored in GitHub as well as inside the notebook directory 
 https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
-#### Features in Datasets:
+### Features in Datasets:
 The data contains the different attributes of the employee and the employer. The detailed data dictionary is given below.
 
 - `case_id`: ID of each visa application
@@ -27,7 +27,7 @@ The data contains the different attributes of the employee and the employer. The
 - `full_time_position`: Is the position of work full-time? Y = Full-Time Position; N = Part-Time Position
 - `case_status`: Flag indicating if the Visa was certified or denied
 
-#### Models Used
+### Models Used
 * Logistic Regression
 * KNeighbors Classifier
 * XGB Classifier
@@ -52,7 +52,7 @@ From these above models after hyperparameter optimization, we selected the Top t
 4. Git Actions
 5. Terraform
 
-#### `US_Visa` is the main package folder which contains 
+### `US_Visa` is the main package folder which contains 
 
 **Artifact** : Stores all artefacts created from running the application
 
